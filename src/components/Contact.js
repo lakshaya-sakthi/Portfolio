@@ -56,10 +56,10 @@ const Contact = ({ darkMode }) => {
               animate={inView ? { opacity: 1 } : {}}
               transition={{ duration: 1, delay: 0.5 }}
             >
-              <a href="https://github.com/lakshaya-sakthi" target="_blank" className="me-3 text-decoration-none">
+              <a href="https://github.com/lakshaya-sakthi" target="_blank"  rel="noopener noreferrer" className="me-3 text-decoration-none">
                 <FaGithub size={30} className={darkMode ? "text-light" : ""} />
               </a>
-              <a href="https://www.linkedin.com/in/lakshaya-sakthi-1023b7321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="text-decoration-none">
+              <a href="https://www.linkedin.com/in/lakshaya-sakthi-1023b7321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"  rel="noopener noreferrer" className="text-decoration-none">
                 <FaLinkedin size={30} className={darkMode ? "text-light" : ""} />
               </a>
             </motion.div>
