@@ -75,7 +75,7 @@ const Skills = ({ darkMode }) => {
                   <ProgressBar
                     now={b.value}
                     label={`${b.value}%`}
-                    variant={darkMode ? "info" : "success"}
+                    variant={darkMode ? "info" : "primary"}
                   />
                 </Card>
               </motion.div>

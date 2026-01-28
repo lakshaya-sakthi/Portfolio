@@ -20,7 +20,7 @@ const NavbarComponent = ({ darkMode, setDarkMode }) => {
                 className="nav-link"
                 to={section}
                 smooth={true}
-                duration={700}
+                duration={200}
                 offset={-70}
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}

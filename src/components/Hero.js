@@ -28,10 +28,10 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <Link to="projects" smooth={true} duration={700} offset={-70}>
+          <Link to="projects" smooth={true} duration={200} offset={-70}>
             <Button variant="primary" className="me-2">View Projects</Button>
           </Link>
-          <Link to="contact" smooth={true} duration={700} offset={-70}>
+          <Link to="contact" smooth={true} duration={200} offset={-70}>
             <Button variant="outline-primary">Contact Me</Button>
           </Link>
         </motion.div>
